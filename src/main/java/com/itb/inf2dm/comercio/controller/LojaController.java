@@ -14,8 +14,7 @@ public class LojaController {
 public String listarProdutos() {
 return "produtos";
 		
-		
-		}
+	}
 }
 
 
