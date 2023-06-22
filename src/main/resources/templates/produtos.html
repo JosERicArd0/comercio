@@ -9,18 +9,15 @@
             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     </head>
 <body>
-    <div>
-
-    <div class="container bg-light mt-4">
-
-<i class="fas f-crtplus ml-2"></i>
-<a th: href="@{/comercio/produtos/novo-produto}" class="btn btn-primary m-2">Novo Produto</a>
+    <main class="container bg-light mt-4">
+        <div>
+            <i class="fas f-crtplus ml-2"></i>
+            <a th:href="@{/comercio/produtos/novo-prod}" class="btn btn-primary m-2">Novo Produto</a>
+        </div>
 
 <div>
-
     <h2 class="my-5">LISTA DE PRODUTOS</h2>
-<table class="table table-striped table-responsive-md">
-
+    <table class="table table-striped table-responsive-md">
     <thead>
         <tr>
             <th>ID</th>
@@ -30,13 +27,19 @@
             <th>Editar</th>
         </tr>
     </thead>
-
-</table>
-</div>
-
-</div>
-    
-</div>
-
+    <tbody>
+        <tr th:each="produto : ${listaDeProdutos}">
+        <td th:text="${produto.id}"></td>
+        <td th:text="${produto.nome}"></td>
+        <td th:text="${produto.codigoBarras}"></td>
+        <td th:text="${produto.preco}"></td>
+        <td th:text="${produto.descricao}"></td>
+        <a href="#" >
+            EDITAR
+        </a>
+       </tr>
+    </tbody>
+    </table>
+    </main>
 </body>
 </html>

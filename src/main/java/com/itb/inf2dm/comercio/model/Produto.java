@@ -3,7 +3,7 @@ package com.itb.inf2dm.comercio.model;
 public class Produto {
 
 	private Long id;
-	private String Descricao;
+	private String descricao;
 	private String nome;
 	private String codigoBarras;
 	private Double preco;
@@ -22,10 +22,10 @@ public Long getid() {
 	
 }
 public void setDescricao(String Descricao) {
-	this.Descricao = Descricao;
+	this.descricao = Descricao;
 }
 public String getDescricao() {
-	return Descricao;
+	return descricao;
 		}
 public void setcodigoBarras(String codigoBarras) {
 	this.codigoBarras = codigoBarras;
@@ -33,23 +33,19 @@ public void setcodigoBarras(String codigoBarras) {
 public String getcodigoBarras() {
 	return codigoBarras;
 		}
+
+public void setNome(String nome) {
+	this.nome = nome;
+	}
+
 public String getNome() {
 	return nome;
 }
-public void setNome(String nome) {
-	this.nome = nome;
-}
-public String getCodigoBarras() {
-	return codigoBarras;
-}
-public void setCodigoBarras(String codigoBarras) {
-	this.codigoBarras = codigoBarras;
+
+public void setPreco(Double preco) {
+	this.preco = preco;
 }
 public Double getPreco() {
 	return preco;
 }
-public void setPreco(Double preco) {
-	this.preco = preco;
-}
-
 	}
