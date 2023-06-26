@@ -7,6 +7,7 @@ public class Produto {
 	private String nome;
 	private String codigoBarras;
 	private Double preco;
+	private Boolean status;
 	
 	// No projeto orientação objetos, falamos sobre o public, 
 	// um modificador de acesso livre para todas as classes e private, 
@@ -48,4 +49,14 @@ public void setPreco(Double preco) {
 public Double getPreco() {
 	return preco;
 }
+
+public void setStatus(Boolean status) {
+	this.status = status;
 	}
+
+public Boolean getStatus() {
+	return status;
+	
+}
+	
+}
