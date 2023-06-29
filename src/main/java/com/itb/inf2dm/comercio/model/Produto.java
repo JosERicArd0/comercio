@@ -15,10 +15,10 @@ public class Produto {
 	//Membros são atributos/métodos
 	//Métodos setter's e getter's : Adicionare Recuperar dados do atribuito "Respectivamente"
 
-public void setid(Long id) {
+public void setId(Long id) {
 	this.id = id;
 }
-public Long getid() {
+public Long getId() {
 	return id;
 	
 }
@@ -28,10 +28,10 @@ public void setDescricao(String Descricao) {
 public String getDescricao() {
 	return descricao;
 		}
-public void setcodigoBarras(String codigoBarras) {
+public void setCodigoBarras(String codigoBarras) {
 	this.codigoBarras = codigoBarras;
 }
-public String getcodigoBarras() {
+public String getCodigoBarras() {
 	return codigoBarras;
 		}
 

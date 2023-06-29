@@ -23,20 +23,20 @@ public class LojaController {
 public String listarProdutos(Model model) {
 		
 Produto p1 = new Produto();
-p1.setid(20l);
-p1.setNome("Máquina de lavar Eletrolux 12 l");
-p1.setcodigoBarras("JJJJJJJJJJJJJJJJJJJJ");
+p1.setId(20l);
+p1.setNome("Máquina de lavar Eletrolux 12l");
+p1.setCodigoBarras("JKLSSDKFLAQ145");
 p1.setPreco(3624.10);
 p1.setDescricao("é uma máquinma de lavar, o que você está esperando?");
 p1.setStatus(false);
 listaDeProdutos.add(p1);
 
 Produto p2 = new Produto();
-p2.setid(21l);
-p2.setNome("Freezer de 5 portas");
-p2.setcodigoBarras("KKKKKKKKKKKK");
+p2.setId(21l);
+p2.setNome("Freezer Eletrolux");
+p2.setCodigoBarras("KRLFPOAJMEKF223495");
 p2.setPreco(100000.10);
-p2.setDescricao("é um freezer, o que você está esperando?");
+p2.setDescricao("Descrição");
 p2.setStatus(true);
 listaDeProdutos.add(p2);
 
