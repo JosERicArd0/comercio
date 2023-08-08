@@ -27,7 +27,7 @@ p1.setId(20l);
 p1.setNome("Máquina de lavar Eletrolux 12l");
 p1.setCodigoBarras("JKLSSDKFLAQ145");
 p1.setPreco(3624.10);
-p1.setDescricao("é uma máquinma de lavar, o que você está esperando?");
+p1.setDescricao("é uma máquina de lavar, o que você está esperando?");
 p1.setStatus(false);
 listaDeProdutos.add(p1);
 
